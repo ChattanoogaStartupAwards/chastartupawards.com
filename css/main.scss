@@ -901,7 +901,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			width: 50%;
 
 			@for $i from 1 through _misc(max-features) {
-				$j: 0.035 * $i;
+				$j: 0.020 * $i;
 
 				&:nth-child(#{$i}) {
 					background-color: rgba(0,0,0, $j);
