@@ -1,2 +1,2 @@
 
-#This is the Chattanooga Startup Awards website repository.
+# This is the Chattanooga Startup Awards website repository.
