@@ -1530,6 +1530,26 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
+
+		.image {
+			@include vendor('order', '1');
+			border-radius: 0;
+			width: 40%;
+			max-width: 600px;
+
+			img {
+				border-radius: 0;
+				width: 100%;
+			}
+		}
+
+		@include breakpoint(medium) {
+
+			.image {
+				width: 100%;
+			}
+		}
+
 		.more {
 			@include vendor('transition', ('transform 0.75s ease', 'opacity 0.75s ease'));
 			@include vendor('transition-delay', '3.5s');
