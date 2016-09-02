@@ -976,6 +976,8 @@ $baseurl: '{{ site.baseurl }}/images';
 			img {
 				border-radius: 0;
 				width: 100%;
+				max-width: 400px;
+				margin-left: 25%;
 			}
 		}
 
@@ -1001,6 +1003,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		@include breakpoint(large) {
 			.image {
 				width: 45%;
+				
+				img {
+					margin-left: 0;
+				}
 			}
 
 			.content {
@@ -1231,6 +1237,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		> .inner {
 			width: 60em;
 			margin: 0 auto;
+			img {
+				margin-bottom: 50px;
+				width: 100%;
+			}
 
 			@include breakpoint(large) {
 				width: 90%;
