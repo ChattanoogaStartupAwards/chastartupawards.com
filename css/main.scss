@@ -550,6 +550,10 @@ $baseurl: '{{ site.baseurl }}/images';
 				width: 100%;
 			}
 		}
+
+		&.sponsor {
+			height: 200em;
+		}
 	}
 
 /* List */
