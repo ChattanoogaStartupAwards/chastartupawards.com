@@ -552,7 +552,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		&.sponsor {
-			height: 200em;
+			height: 60%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 
