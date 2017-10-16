@@ -1,4 +1,4 @@
 
 # This is the Chattanooga Startup Awards website repository.
 
-https://chastartupawards.com/sponsors.html
+https://chastartupawards.com/
