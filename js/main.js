@@ -53,7 +53,6 @@
 					$('#award-description').text("This individual or organization promotes and relentlessly campaigns for redefining how we work, collaborate and work together. ");
 					break;
 				}
-				console.log(e);
 			});
 
 		// Mobile?
