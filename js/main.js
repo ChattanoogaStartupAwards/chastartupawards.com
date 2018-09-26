@@ -32,6 +32,30 @@
 				}, 100);
 			});
 
+			$('#demo-category').change(function(e) {
+				switch(e.target.value) {
+					case 'startup-of-the-year':
+					$('#award-description').text("The most forward-facing, problem-solving, original and inspiring young business in the Chattanooga area. This company embodies the innovative spirit and has a legitimate chance to be a household name.");
+					break;
+					case 'colabds-high-growth-co-of-the-year':
+					$('#award-description').text("This award celebrates a founder who has taken the entrepreneurial journey head on, with success in building their team, attracting capital, and pursuing their market.");
+					break;
+					case 'launch-chas-micro-business-of-the-year':
+					$('#award-description').text("A LAUNCH entrepreneur whose pursuit fits the micro-business model and recognize their perseverance despite the challenges they face as an underrepresented entrepreneur.");
+					break;
+					case 'causeways-changemaker-of-the-year':
+					$('#award-description').text("A person who uses their entrepreneurial mind for good; rolling up their sleeves, working tirelessly in their neighborhoods and communities to create the change they want to see, whether that is through a nonprofit, a business, or a community project.");
+					break;
+					case 'incubators-incubated-biz-of-the-year':
+					$('#award-description').text("A diamond in the rough polished to perfection through perseverance, hard work and by leveraging the bountiful resources in Chattanooga’s ecosystem is no longer a hidden gem.");
+					break;
+					case 'society-of-works-coworder-of-the-year':
+					$('#award-description').text("This individual or organization promotes and relentlessly campaigns for redefining how we work, collaborate and work together. ");
+					break;
+				}
+				console.log(e);
+			});
+
 		// Mobile?
 			if (skel.vars.mobile)
 				$body.addClass('is-mobile');
