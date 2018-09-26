@@ -4,10 +4,10 @@
 # Site settings
 title: Chattanooga Startup Awards
 description: |
-  Thursday, October 19 at 7:30PM
+  Thursday, October 25 at 7:30PM
 owner: Chattanooga Startup Awards # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
-email: chattanoogastartupawards@getbellhops.com
+email: chastartupawards@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chastartupawards.com" # the base hostname & protocol for your site
 social:
