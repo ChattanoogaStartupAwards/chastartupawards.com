@@ -35,22 +35,26 @@
 			$('#demo-category').change(function(e) {
 				switch(e.target.value) {
 					case 'startup-of-the-year':
-					$('#award-description').text("The most forward-facing, problem-solving, original and inspiring young business in the Chattanooga area. This company embodies the innovative spirit and has a legitimate chance to be a household name.");
-					break;
-					case 'colabds-high-growth-co-of-the-year':
-					$('#award-description').text("This award celebrates a founder who has taken the entrepreneurial journey head on, with success in building their team, attracting capital, and pursuing their market.");
-					break;
-					case 'launch-chas-micro-business-of-the-year':
-					$('#award-description').text("A LAUNCH entrepreneur whose pursuit fits the micro-business model and recognize their perseverance despite the challenges they face as an underrepresented entrepreneur.");
+					$('#award-description').text("This award recognizes the most forward-facing, problem-solving, original and inspiring young business in the Chattanooga area. This company embodies the innovative spirit and has a legitimate chance to be a household name.");
 					break;
 					case 'causeways-changemaker-of-the-year':
-					$('#award-description').text("A person who uses their entrepreneurial mind for good; rolling up their sleeves, working tirelessly in their neighborhoods and communities to create the change they want to see, whether that is through a nonprofit, a business, or a community project.");
+					$('#award-description').text("This award celebrates a person who uses their entrepreneurial mind for good; rolling up their sleeves, working tirelessly in their neighborhoods and communities to create the change they want to see, whether that is through a nonprofit, a business, or a community project.");
 					break;
-					case 'incubators-incubated-biz-of-the-year':
-					$('#award-description').text("A diamond in the rough polished to perfection through perseverance, hard work and by leveraging the bountiful resources in Chattanooga’s ecosystem is no longer a hidden gem.");
+					case 'colabs-high-growth-co-of-the-year':
+					$('#award-description').text("This award celebrates a founder who has taken the entrepreneurial journey head on, with demonstrated success in building their team, attracting capital, and pursuing their market.");
 					break;
-					case 'society-of-works-coworder-of-the-year':
-					$('#award-description').text("This individual or organization promotes and relentlessly campaigns for redefining how we work, collaborate and work together. ");
+					case 'incubators-goldfinch-of-the-year':
+					$('#award-description').text("This award celebrates INCubator Clients who have excelled in their industry and implemented innovative designs and strategies for growth – all the while embodying the entrepreneurial spirit.");
+					break;
+					case 'launch-chas-micro-business-of-the-year':
+					$('#award-description').text("This award recognizes a LAUNCH CHA entrepreneur with fewer than 5 employees who has worked and persevered, despite the challenges they face as a woman-owned or minority-owned business.");
+					break;
+					case 'society-of-works-coworker-of-the-year':
+					$('#award-description').text("This award recognizes an individual or organization who is a positive force in the Society of Work community and beyond by collaborating with, supporting, and cheering on those around them.");
+					break;
+					case 'charlie-e-brock-ecosystem-builder-of-the-year':
+					$('#award-description').html("Charlie Brock is the former CEO of Launch Tennessee, a public-private partnership dedicated to making Tennessee the #1 state for starting and scaling businesses. Brock is native to the Chattanooga area and has been a champion for the startup community since its conception, as an investor, mentor and leader." +
+					"<br><br>In the spirit of Charlie’s dedication to the Chattanooga entrepreneurial community, this award is dedicated to an individual who encourages collaboration between supporting organizations and exemplifies selfless dedication to making Chattanooga a stronger and more inclusive entrepreneurial ecosystem.");
 					break;
 				}
 			});
