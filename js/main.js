@@ -35,22 +35,33 @@
 			$('#demo-category').change(function(e) {
 				switch(e.target.value) {
 					case 'startup-of-the-year':
-					$('#award-description').text("The most forward-facing, problem-solving, original and inspiring young business in the Chattanooga area. This company embodies the innovative spirit and has a legitimate chance to be a household name.");
+					$('#award-description').text("This award recognizes the most forward-facing, problem-solving, original and inspiring young business in the Chattanooga area. This company embodies the innovative spirit and has a legitimate chance to be a household name.");
 					break;
-					case 'colabds-high-growth-co-of-the-year':
-					$('#award-description').text("This award celebrates a founder who has taken the entrepreneurial journey head on, with success in building their team, attracting capital, and pursuing their market.");
+					case 'colabs-high-growth-co-of-the-year':
+					$('#award-description').text("This award celebrates a founder who has taken the entrepreneurial journey head on, with demonstrated success in building their team, attracting capital, and pursuing their market.");
+					break;
+					case 'incubators-goldfinch-of-the-year':
+					$('#award-description').text("This award celebrates INCubator Clients who have excelled in their industry and implemented innovative designs and strategies for growth – all the while embodying the entrepreneurial spirit.");
 					break;
 					case 'launch-chas-micro-business-of-the-year':
 					$('#award-description').text("This award recognizes a LAUNCH entrepreneur with fewer than five employees who has worked and persevered, despite the challenges they face as a woman-owned business or as an entrepreneur of color.");
 					break;
-					case 'incubators-incubated-biz-of-the-year':
-					$('#award-description').text("A diamond in the rough polished to perfection through perseverance, hard work and by leveraging the bountiful resources in Chattanooga’s ecosystem is no longer a hidden gem.");
+					case 'society-of-works-coworker-of-the-year':
+					$('#award-description').text("This award recognizes an individual or organization who is a positive force in the Society of Work community and beyond by collaborating with, supporting, and cheering on those around them.");
 					break;
-					case 'society-of-works-coworder-of-the-year':
-					$('#award-description').text("This individual or organization promotes and relentlessly campaigns for redefining how we work, collaborate and work together. ");
+					case 'charlie-e-brock-ecosystem-builder-of-the-year':
+					$('#award-description').html("Charlie Brock is the former CEO of Launch Tennessee, a public-private partnership dedicated to making Tennessee the #1 state for starting and scaling businesses. Brock is native to the Chattanooga area and has been a champion for the startup community since its conception, as an investor, mentor and leader." +
+					"<br><br>In the spirit of Charlie’s dedication to the Chattanooga entrepreneurial community, this award is dedicated to an individual who encourages collaboration between supporting organizations and exemplifies selfless dedication to making Chattanooga a stronger and more inclusive entrepreneurial ecosystem.");
 					break;
 					case 'the-enterprise-ctr-tech-goes-home-volunteer-of-the-year':
-					$('#award-description').text("Volunteers are the cornerstone of many organizations and are vital to raising awareness in the communities in which they live and work. This award is for a person who volunteers or volunteered their time to improve the community through various contributions and community service. Each year, The Enterprise Center and Tech Goes Home honors individuals for their commitment to outstanding volunteerism and making a difference for startups and organizations . The TEC/TGH Volunteer of the Year Award recognizes outstanding volunteers for their commitment to Chattanooga organizations, awareness, education, research and support.");
+					$('#award-description').html("<p>Volunteers are the cornerstone of many organizations and are vital to raising awareness in the communities in which they live and work. This award is for a person who volunteers or volunteered their time to improve the community through various contributions and community service. </p>" +
+					"<p>Each year, The Enterprise Center and Tech Goes Home honors individuals for their commitment to outstanding volunteerism and making a difference for startups and organizations . The TEC/TGH Volunteer of the Year Award recognizes outstanding volunteers for their commitment to Chattanooga organizations, awareness, education, research and support.</p>" +
+					"<p>Nominees assisted or spearheaded a campaign or service that proved beneficial to an individual and/or the community.</p>" +
+					"<p>Nominees must reside or have a business in Hamilton County.</p>" +
+					"<p>Nominee’s contributions must be of an extraordinary nature.</p>" +
+					"<p>Nominee selflessly gives of their time to improving the community without receiving monetary compensation.</p>" +
+					"<p>Nominees may be considered a mentor to others based upon their volunteer efforts.</p>"
+					);
 					break;
 				}
 			});
