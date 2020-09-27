@@ -41,16 +41,16 @@
 					$('#award-description').text("This award celebrates a founder who has taken the entrepreneurial journey head on, with success in building their team, attracting capital, and pursuing their market.");
 					break;
 					case 'launch-chas-micro-business-of-the-year':
-					$('#award-description').text("A LAUNCH entrepreneur whose pursuit fits the micro-business model and recognize their perseverance despite the challenges they face as an underrepresented entrepreneur.");
-					break;
-					case 'causeways-changemaker-of-the-year':
-					$('#award-description').text("A person who uses their entrepreneurial mind for good; rolling up their sleeves, working tirelessly in their neighborhoods and communities to create the change they want to see, whether that is through a nonprofit, a business, or a community project.");
+					$('#award-description').text("This award recognizes a LAUNCH entrepreneur with fewer than five employees who has worked and persevered, despite the challenges they face as a woman-owned business or as an entrepreneur of color.");
 					break;
 					case 'incubators-incubated-biz-of-the-year':
 					$('#award-description').text("A diamond in the rough polished to perfection through perseverance, hard work and by leveraging the bountiful resources in Chattanooga’s ecosystem is no longer a hidden gem.");
 					break;
 					case 'society-of-works-coworder-of-the-year':
 					$('#award-description').text("This individual or organization promotes and relentlessly campaigns for redefining how we work, collaborate and work together. ");
+					break;
+					case 'the-enterprise-ctr-tech-goes-home-volunteer-of-the-year':
+					$('#award-description').text("Volunteers are the cornerstone of many organizations and are vital to raising awareness in the communities in which they live and work. This award is for a person who volunteers or volunteered their time to improve the community through various contributions and community service. Each year, The Enterprise Center and Tech Goes Home honors individuals for their commitment to outstanding volunteerism and making a difference for startups and organizations . The TEC/TGH Volunteer of the Year Award recognizes outstanding volunteers for their commitment to Chattanooga organizations, awareness, education, research and support.");
 					break;
 				}
 			});
